@@ -1,12 +1,9 @@
-# 北京大学软件工程课程第一组项目
+# 软件工程课程第一组项目
 
-## Demo 地址
 
-[demo](http://222.29.159.164:10018/)
 
 ## 文档
 
-+ 见`/doc/最终提交文档`
 
 ## 部署
 
@@ -34,13 +31,13 @@ $ python3 src/backend/manage.py shell
 >>> City.objects.create(city_id=1, country_name='未设置', province_name='未设置', city_name='未设置', latitude=0, longitude=0)
 >>> exit()
 
-$ python3 src/backend/manage.py runserver 127.0.0.1:port
+$ python3 src/backend/manage.py runserver 127.0.0.1:8000
 ```
 
 ### 前端
 
 ```sh
 $ cd src/frontend/src
-$ npm install # 需要预先安装 node, 具体参见 nodejs.org
+$ npm install 
 $ npm run serve
 ```
