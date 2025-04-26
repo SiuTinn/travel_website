@@ -82,7 +82,13 @@ $RECYCLE.BIN/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.venv/
+.Python
 
 # C extensions
 *.so
@@ -268,3 +274,39 @@ tags
 
 ### backend API
 src/frontend/src/backendAPI.js
+
+# Node/Vue
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+/src/frontend/public/img/brand/favicon.png
+
+# VSCode
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE
+.idea/
+*.swp
+
+# Test/Build
+*.bak
+*.tmp
+
+# API 密钥
+src/backend/apps/api/modules/yang.gapi
+
+# 前端打包输出
+src/frontend/dist/
+src/frontend/public/static/
+src/frontend/public/*.map
+
+# 其他
+*.env
